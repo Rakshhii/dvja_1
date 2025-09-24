@@ -10,7 +10,7 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: '*/1.1']],
+                    branches: [[name: '*/master']],
                     userRemoteConfigs: [[
                         url: 'https://github.com/Rakshhii/dvja_1',
                         credentialsId: 'rakshi'
