@@ -42,7 +42,7 @@ pipeline {
                                 set CX_APIKEY=%CX_APIKEY%
                                 ${env.CX_CLI_PATH} scan create ^
                                     --project-name "Rakshhii/dvja1" ^
-                                    --branch "1.1" ^
+                                    --branch "master" ^
                                     -s . ^
                                     --scan-types sast,sca,container-security ^
                                     --container-images goat:ex1
